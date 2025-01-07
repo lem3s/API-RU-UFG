@@ -7,6 +7,7 @@ A Web Api that allow the academic community to make integrations with the Univer
 ## Table of Contents
 
 - [Requirements](#requirements)
+- [Endpoints](#endpoints)
 - [System Design](#system-design)
 
 ---
@@ -23,6 +24,16 @@ A Web Api that allow the academic community to make integrations with the Univer
 - **User Stories**:
   - \*As a user, I want to **[make a request for today meals]**, so that I can **[integrate with my application]\***.
   - \*As a user, I want to **[make a request for the meals on January 25th 2025]**, so that I can **[integrate with my application]\***.
+
+---
+
+## Endpoints
+
+- Get all today meals: `api/menu`
+- Get today's menu for a especific meal: `api/menu?time=x` where x ranges from 0 to 2
+- Get the week meals: `api/menu/week`
+- Get the meals of a specific date: `api/menu?date=20240128`
+  > meals from 2024-01-28
 
 ---
 
