@@ -30,7 +30,8 @@ A Web Api that allow the academic community to make integrations with the Univer
 ## Endpoints
 
 - Get all today meals: `api/menu`
-- Get today's menu for a especific meal: `api/menu?time=x` where x ranges from 0 to 2
+- Get today's menu for a especific meal: `api/menu?time=x`
+  > where x ranges from 0 to 2
 - Get the week meals: `api/menu/week`
 - Get the meals of a specific date: `api/menu?date=20240128`
   > meals from 2024-01-28
