@@ -1,0 +1,1 @@
+ALTER TABLE menu RENAME TO menus;
